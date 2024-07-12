@@ -4,3 +4,10 @@
 # --> unordered, Iterable, Non-Indexed
 # --> Not allow duplicate items
 # --> Allow heterogeneous data
+
+set_methods = dir(set)
+lst = []
+for i in set_methods:
+    if not str(i).startswith('__'):
+        lst.append(i)
+print(lst)
