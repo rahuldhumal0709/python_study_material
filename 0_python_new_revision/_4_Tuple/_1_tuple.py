@@ -6,5 +6,4 @@
 --> Allow duplicate items
 --> Allow heterogeneous data
 --> Faster than list
-
 '''
