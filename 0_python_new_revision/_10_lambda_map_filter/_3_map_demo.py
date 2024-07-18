@@ -27,5 +27,5 @@ sq_list=list(map(lambda lst:lst**2,lst))
 print(sq_list)
 # =========================================
 # Using list comprehensions
-sq = [i**2 for i in lst]
-print(sq)
+# sq = [i**2 for i in lst]
+# print(sq)

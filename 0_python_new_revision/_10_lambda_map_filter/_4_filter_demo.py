@@ -19,5 +19,5 @@ print(filter_item)
 filter_lambda = list(filter(lambda lst:lst%2==0,lst))
 print(filter_lambda)
 
-list_com = [i for i in lst if i%2==0]
-print(list_com)
+# list_com = [i for i in lst if i%2==0]
+# print(list_com)

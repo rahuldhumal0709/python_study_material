@@ -15,5 +15,5 @@ lst = [4,5,1,2,10,9,7,45]
 # res = reduce(sum,lst)
 # print(res)
 # #--------------------------------------------------------------3nd way using lambda with reduce function
-lambda_res = reduce(lambda lst,sums : lst + sums , lst)
+lambda_res = reduce(lambda item1,item2 : item1 + item2 , lst)
 print(lambda_res)

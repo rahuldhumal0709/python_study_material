@@ -14,11 +14,11 @@ def sum(data):
     return sum
 print(sum(lst))
 
-def sum(data1,data2):
-    return data1+data2
+def sum(item1,item2):
+    return item1+item2
 sum_res = reduce(sum,lst)
 print(sum_res)
 
 lst = [10,20,30,40,10]
-result = reduce(lambda data1,data2:data1+data2,lst)
+result = reduce(lambda item1,item2 : item1 + item2 , lst)
 print(result)
