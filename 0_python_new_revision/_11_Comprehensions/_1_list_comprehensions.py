@@ -9,8 +9,8 @@
 #     print(j,end=' ')
 # print()
 
-lst1 = [1,2,3,4,5]
-lst2 = [4,5,6,7,8]
+# lst1 = [1,2,3,4,5]
+# lst2 = [4,5,6,7,8]
 
 # intersection
 # result = [i for i in lst1 for j in lst2 if i==j]
@@ -20,5 +20,12 @@ lst2 = [4,5,6,7,8]
 # lst1.extend([j for j in lst2 if j not in lst1])
 # print(lst1)
 
-result = ["even" if n%2 == 0 else "odd" for n in range(10)]
+# result = ["even" if n%2 == 0 else "odd" for n in range(10)]
+# print(result)
+
+lst = ["apple","mango","Aeroplane","ac","laptop","diary","mobile"]
+# o/p = ["apple","Aeroplane"] # starts with A and length more than 4
+
+result = [i for i in lst if (i.startswith('a') or i.startswith('A')) and len(i)>4]
+
 print(result)

@@ -17,25 +17,25 @@
 # # write a program to reverse the list take dynamic list
 # # method -1               general method
 
-# # num = int(input('please enter number of elements in list = '))
-# # list1 = []
-# # for i in range(1, num+1):
-# #   list2 = int(input('elements = '))
-# #   list1.append(list2)
+num = int(input('please enter number of elements in list = '))
+list1 = []
+for i in range(1, num+1):
+  list2 = int(input('elements = '))
+  list1.append(list2)
   
-# # print('given list = ',list1)
-# # print('reverse list = ',list1[::-1])
+print('given list = ',list1)
+print('reverse list = ',list1[::-1])
 
 
-# # write a program to reverse the list take dynamic list
-# # method - 2         nested loop method
+# write a program to reverse the list take dynamic list
+# method - 2         nested loop method
 
-# num3 = int(input('please enter number of elements in list = '))
-# vari1 = []
-# for i in range(1, num3 +1):
-#   vari2 = int(input('elements = '))
-#   vari1.append(vari2)
-# print('given list = ',vari1)
+num3 = int(input('please enter number of elements in list = '))
+vari1 = []
+for i in range(1, num3 +1):
+  vari2 = int(input('elements = '))
+  vari1.append(vari2)
+print('given list = ',vari1)
 
 # # [6, 1, 2]
 # # [1, 6, 2]

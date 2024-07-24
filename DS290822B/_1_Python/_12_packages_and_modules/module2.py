@@ -9,17 +9,17 @@
 # module1.one()
 
 
-# from <module_name> import <function_name,class_name,variable_name>
+# # from <module_name> import <function_name,class_name,variable_name>
 # from module1 import one,name,three
 # one()
 # print(name)
 # three()
 
 # from <module_name> import *(all)
-# from module1 import *
-# one()
-# print(name)
-# three()
+from module1 import *
+one()
+print(name)
+three()
 
 
 def two():

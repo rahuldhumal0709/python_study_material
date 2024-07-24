@@ -32,17 +32,17 @@ import re
 # res = re.findall(r"\D",data) # checks for non-digit characters
 # print(res)
 
-# data = "Hello Bharati 123"
-# res = re.findall(r"123\Z",data) # checks if data ends with '123'
+# data = "Hello Bharati"
+# res = re.findall(r"ti\Z",data) # checks if data ends with '123'
 # print(res)
 
-# data = "Hello Bharati 123 ___"
-# res = re.findall(r"\w",data) # checks if A-Z,a-z,0-9,_
-# print(res)
+data = "Hello Bharati 123 ___ @"
+res = re.findall(r"\w",data) # checks if A-Z,a-z,0-9,_
+print(res)
 
-# data = "Hello Bharati 123@@@@"
-# res = re.findall(r"\W",data) # checks if not A-Z,a-z,0-9,_ , but it includes spaces , special characters
-# print(res)
+data = "Hello Bharati 123@@@@"
+res = re.findall(r"\W",data) # checks if not A-Z,a-z,0-9,_ , but it includes spaces , special characters
+print(res)
 
 
 

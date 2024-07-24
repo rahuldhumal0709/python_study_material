@@ -10,8 +10,8 @@ if res:
 else:
     print('try again')
 
-8, 16 -> {8,16}
-1. upper letter
-2. lower letter 
-3. digit 
-4. special character
+# 8, 16 -> {8,16}
+# 1. upper letter
+# 2. lower letter 
+# 3. digit 
+# 4. special character

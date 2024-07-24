@@ -24,13 +24,13 @@ import re
 # res=re.findall("[a-z]{5}", data) # it will return all the starting 5 small letters of every word
 # print(res)
 
-# data = "67 89"
-# res = re.findall("[4-7]",data)
-# print(res)
+data = "67 89"
+res = re.findall("[4-7]",data)
+print(res)
 
-# data="795"
-# res=re.findall("[1-5][5-9][1-3]", data)
-# print(res)
+data="484"
+res=re.findall("[1-5][5-9][1-3]", data)
+print(res)
 
 data = "abc123"
 res = re.findall("\d{10}",data)
