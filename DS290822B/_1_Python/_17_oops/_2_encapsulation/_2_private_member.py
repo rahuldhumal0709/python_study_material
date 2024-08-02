@@ -10,5 +10,6 @@ class private:
         return self.__name
 
 obj = private()
+print(obj.get_name())
 obj.set_name("Aaditya")
 print(obj.get_name())
